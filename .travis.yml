@@ -1,0 +1,7 @@
+language: cpp
+
+./configure && make && make test
+
+compiler:
+  - clang
+  - gcc
